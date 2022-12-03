@@ -1,0 +1,84 @@
+/*Main Component START*/
+body {
+  margin: 0;
+  width: 100vw;
+  height: 130vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vmin;
+  background-color: rgb(90, 88, 88);
+  color: white;
+  height: 10vh;
+  font-size: 3vmin;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60vw;
+}
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+.navLink:hover {
+  cursor: pointer;
+  color: lightgray;
+}
+.loginBtn {
+  padding: 0.5vmin;
+  width: 10vmin;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+}
+.loginBtn:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+}
+footer {
+  background-color: rgb(90, 88, 88);
+  color: white;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Main Component END*/
+/*Home Component START*/
+.homeBody {
+  background-color: white;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Home Component END*/
+/*AboutComponent START*/
+.aboutBody {
+  background-color: white;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*About Component END*/
+/*Contact Component START*/
+.contactBody {
+  background-color: white;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Contact Component END*/
